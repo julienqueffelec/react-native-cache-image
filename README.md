@@ -8,6 +8,12 @@ Smart React-Native component which cache image on the device when loaded
 npm install react-native-smart-image
 ```
 
+How to show image in a markdown file
+
+## How it works
+
+![Demo](./diagram.png)
+
 ## Usage
 
 ```js

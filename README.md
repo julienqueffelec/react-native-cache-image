@@ -17,7 +17,7 @@ How to show image in a markdown file
 ## Usage
 
 ```js
-import { CacheImage } from 'react-native-cache-image';
+import { CacheImage } from '@julienqueffelec/react-native-cache-image';
 
 <CacheImage source={{ uri: 'https://picsum.photos/200/300' }} />;
 ```

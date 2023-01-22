@@ -47,9 +47,9 @@
   "author": "Julien Queffelec <julienqueffelec@me.com> (https://github.com/julienqueffelec)",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/julienqueffelec/@julienqueffelec/react-native-cache-image/issues"
+    "url": "https://github.com/julienqueffelec/react-native-cache-image/issues"
   },
-  "homepage": "https://github.com/julienqueffelec/@julienqueffelec/react-native-cache-image#readme",
+  "homepage": "https://github.com/julienqueffelec/react-native-cache-image#readme",
   "publishConfig": {
     "registry": "https://registry.npmjs.org/"
   },

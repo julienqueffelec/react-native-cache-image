@@ -1,5 +1,5 @@
 {
-  "name": "react-native-smart-image",
+  "name": "react-native-cache-image",
   "version": "0.1.0",
   "description": "test",
   "main": "lib/commonjs/index.js",
@@ -42,14 +42,14 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/julienqueffelec/react-native-smart-image.git"
+    "url": "git+https://github.com/julienqueffelec/react-native-cache-image.git"
   },
   "author": "Julien Queffelec <julienqueffelec@me.com> (https://github.com/julienqueffelec)",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/julienqueffelec/react-native-smart-image/issues"
+    "url": "https://github.com/julienqueffelec/react-native-cache-image/issues"
   },
-  "homepage": "https://github.com/julienqueffelec/react-native-smart-image#readme",
+  "homepage": "https://github.com/julienqueffelec/react-native-cache-image#readme",
   "publishConfig": {
     "registry": "https://registry.npmjs.org/"
   },

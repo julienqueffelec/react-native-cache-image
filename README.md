@@ -1,11 +1,11 @@
-# react-native-smart-image
+# react-native-cache-image
 
 Smart React-Native component which cache image on the device when loaded
 
 ## Installation
 
 ```sh
-npm install react-native-smart-image
+npm install react-native-cache-image
 ```
 
 How to show image in a markdown file
@@ -17,7 +17,7 @@ How to show image in a markdown file
 ## Usage
 
 ```js
-import { SmartImage } from 'react-native-smart-image';
+import { SmartImage } from 'react-native-cache-image';
 
 <SmartImage source={{ uri: 'https://picsum.photos/200/300' }} />;
 ```

@@ -25,7 +25,7 @@ export interface Props {
   containerStyle: StyleProp<ViewStyle>;
 }
 
-const SmartImage: React.FC<Props> = ({
+const CacheImage: React.FC<Props> = ({
   source,
   resizeMode,
   defaultImageStyle,
@@ -146,7 +146,7 @@ const SmartImage: React.FC<Props> = ({
   return <View style={containerStyle}>{renderImageView()}</View>;
 };
 
-export default SmartImage;
+export default CacheImage;
 
 let styles = StyleSheet.create({
   imageStyle: {

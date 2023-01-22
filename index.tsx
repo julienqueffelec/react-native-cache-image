@@ -42,6 +42,7 @@ const SmartImage: React.FC<Props> = ({
 
   useEffect(() => {
     checkForImageLocalPathNew();
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
   const checkForImageLocalPathNew = async () => {

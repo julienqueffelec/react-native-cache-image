@@ -11,12 +11,25 @@ npm install react-native-smart-image
 ## Usage
 
 ```js
-import { multiply } from 'react-native-smart-image';
+import { SmartImage } from 'react-native-smart-image';
 
-// ...
-
-const result = await multiply(3, 7);
+<SmartImage source={{ uri: 'https://picsum.photos/200/300' }} />;
 ```
+
+## Props
+
+| Prop                   | Type                    | Default     | Description                                             |
+| ---------------------- | ----------------------- | ----------- | ------------------------------------------------------- |
+| source                 | `ImageSourcePropType`   | `''`        | The source of the image                                 |
+| resizeMode             | `ImageResizeMode`       | `cover`     | The resize mode of the image                            |
+| defaultImage           | `ImageSourcePropType`   |             | The default image to show when the source is not loaded |
+| defaultImageResizeMode | `ImageResizeMode`       | `undefined` | The resize mode of the default image                    |
+| defaultImageStyle      | `StyleProp<ImageStyle>` | `undefined` | The style of the default image                          |
+| imageStyle             | `StyleProp<ImageStyle>` | `undefined` | The style of the image                                  |
+| errorImage             | `ImageSourcePropType`   |             | The image to show when the source is not loaded         |
+| errorImageStyle        | `StyleProp<ImageStyle>` | `undefined` | The style of the error image                            |
+| style                  | `StyleProp<ImageStyle>` | `undefined` | The style of the image container                        |
+| containerStyle         | `StyleProp<ViewStyle>`  | `undefined` | The style of the image container                        |
 
 ## Contributing
 
@@ -29,3 +42,7 @@ MIT
 ---
 
 Made with [create-react-native-library](https://github.com/callstack/react-native-builder-bob)
+
+```
+
+```
